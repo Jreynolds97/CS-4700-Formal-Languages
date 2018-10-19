@@ -1,8 +1,0 @@
-For academic integrity reasons, I have not included the full project description
-for this project.
-
-The general purpose of the project was to create a Deterministic Finite Automaton based 
-lexer for the Jack language, provided in "The Elements of Computing Systems" by Nisan and Schocken, MIT Press.
-For reasons involved in the course, there were further breakdowns of the tokens over those in the book
-
-This has resulted in an incredibly large transition table as defined in transition.py
