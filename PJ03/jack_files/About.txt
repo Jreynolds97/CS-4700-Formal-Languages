@@ -1,0 +1,5 @@
+These are supplied files for testing the included code against.
+
+These files are provided as is and were taken from the
+resources provided in the first few lines of heading within
+the jack files.
