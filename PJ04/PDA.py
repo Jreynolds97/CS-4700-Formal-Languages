@@ -239,7 +239,7 @@ class DPDA():
 
 for machine_file in os.listdir(os.path.dirname(__file__)):
     input_count = 0
-    if "04.pda" not in machine_file:
+    if ".pda" not in machine_file:
         continue
     try:
         machine = DPDA(os.path.join(os.path.dirname(__file__),machine_file))
