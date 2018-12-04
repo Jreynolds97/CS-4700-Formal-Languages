@@ -134,7 +134,6 @@ if not os.path.exists(os.path.join(os.path.dirname(__file__),"results")):
 input_count = 0
 for machine_file in os.listdir(os.path.join(os.path.dirname(__file__),"machine_files")):
     try:
-        print(machine_file)
         machine = Machine(os.path.join(os.path.dirname(__file__),os.path.join(os.path.join(os.path.dirname(__file__),"machine_files"), machine_file)))    
         if machine.machine_type == "DFA":
             with open(os.path.join(os.path.dirname(__file__), "input.txt"), "r") as input_file:
