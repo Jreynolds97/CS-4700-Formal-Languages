@@ -234,7 +234,7 @@ class DPDA():
 
         except:
             pass
-        if str(self.current_state) in self.accept:
+        if str(self.current_state) in self.accept and transitions != self.TIMEOUT:
             self.language.append(self.input)
 
 for machine_file in os.listdir(os.path.dirname(__file__)):
